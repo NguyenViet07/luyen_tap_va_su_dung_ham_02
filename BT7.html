@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function doiCho(x,y) {
+        x = x+y;
+        y = x-y;
+        x = x-y;
+        return [x,y];
+    }
+    var x=1;
+    var y=2;
+    [x,y] = doiCho(x,y);
+    alert(x+" "+y);
+</script>
+
+</body>
+</html>

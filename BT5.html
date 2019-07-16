@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        function checkMin(x,y,z) {
+            if (x<y && x<z){
+                return x;
+            } if (y<x && y<z){
+                return y;
+            } if (z<x && z<y){
+                return z;
+            } else {
+                alert("có hai số giống nhau");
+            }
+        }
+        alert(checkMin(12,12,13));
+    </script>
+
+</body>
+</html>
